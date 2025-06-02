@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Realistic Ammo Counts for Yayo Combat</name>
+	<author>nashp</author>
+	<packageId>nash.fixes.yayocombat.realammocounts</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>
+		Ripped from main mod. Patches to make Yayo's Combat ammo realistic.
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>mlie.yayoscombat3</packageId>
+			<displayName>Yayo's Combat 3 (Continued)</displayName>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>mlie.yayoscombat3</li>
+		<li>syrus.yayoscombataddon</li>
+	</loadAfter>
+</ModMetaData>

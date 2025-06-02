@@ -1,0 +1,29 @@
+<loadFolders>
+    <v1.5>
+        <li>/</li>
+        <li IfModActive="Ludeon.RimWorld.Royalty">Compat/Royalty</li>
+        <li IfModActive="Ludeon.RimWorld.Ideology">Compat/Ideology</li>
+        <li IfModActive="Ludeon.RimWorld.Biotech">Compat/Biotech</li>
+        <li IfModActive="Ludeon.RimWorld.Anomaly">Compat/Anomaly</li>
+        <!--
+        <li IfModActive="aelanna.eccentrictech.foxysarmory2">Compat/ETFoxArmory</li>
+        <li IfModActive="Harkon.GunNut.DesertTech">Compat/GNDesert</li>
+        <li IfModActive="Harkon.GunNut.Chapter1">Compat/GNPart1</li>
+        <li IfModActive="Harkon.GunNut.Chapter2">Compat/GNPart2</li>
+        <li IfModActive="harkon.gunnut.sigsauerngsw">Compat/GNSauer</li>
+        <li IfModActive="harkon.gunnut.fnscar">Compat/GNScar</li>
+        NOOOOO HAAAANK DON'T ABBREVIATE CHICKEN PLUCKER!
+        <li IfModActive="cp.rimmunation.2.security">Compat/RH2Security</li>
+        Aoba's Dead Man's switch
+        <li IfModActive="aoba.deadmanswitch.core">Compat/DMS</li>
+        <li IfModActive="aoba.deadmanswitch.mobiledragoon">Compat/DMS_Dragoons</li>
+        <li IfModActive="aoba.deadmanswitch.motorized">Compat/DMS_Motor</li>
+        <li IfModActive="xmb.ancienturbanruins.mo">Compat/Anc_Urban</li>
+
+        <li IfModActive="jelly.propershotguns">Compat/XNDShotguns</li>
+
+        <li IfModActive="gunmar.tribalhandcannon">Compat/THC</li>
+        <li IfModActive="ocarina.prisonerjumpsuits">Compat/PrisonJumpsuit</li>
+        -->
+    </v1.5>
+</loadFolders>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- Adding xml for magazine sizes and ammo costs for balance-->
+			<!-- Revolver -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_Revolver"]/weaponTags</xpath>
+				<value>
+					<li>ammo_industrial/6/1</li>
+				</value>
+			</li>
+			<!-- Autopistol -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_Autopistol"]/weaponTags</xpath>
+				<value>
+					<li>ammo_industrial/7/1</li>
+				</value>
+			</li>
+			<!-- Machinepistol -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_MachinePistol"]/weaponTags</xpath>
+				<value>
+					<li>ammo_nash_9x19mm/20/1</li>
+				</value>
+			</li>
+			<!-- Incendiary Launcher -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_IncendiaryLauncher"]</xpath>
+				<value>
+					<weaponTags>
+						<li>ammo_industrial_fire/6/1</li>
+					</weaponTags>
+				</value>
+			</li>
+			<!-- Smoke Launcher -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_SmokeLauncher"]/weaponTags</xpath>
+				<value>
+					<li>ammo_industrial_fire/6/1</li>
+				</value>
+			</li>
+			<!-- EMP Launcher -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_EmpLauncher"]/weaponTags</xpath>
+				<value>
+					<li>ammo_industrial_emp/6/1</li>
+				</value>
+			</li>
+			<!-- Bolt-action Rifle -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_BoltActionRifle"]</xpath>
+				<value>
+					<weaponTags>
+						<!-- The secrets of .303 British manufacturing were lost during the 'Great Drowning of Britain' in the 31st century -->
+						<li>ammo_industrial/10/1</li>
+					</weaponTags>
+				</value>
+			</li>
+			<!-- Pump Shotgun -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_PumpShotgun"]/weaponTags</xpath>
+				<value>
+					<li>ammo_industrial/8/1</li>
+				</value>
+			</li>
+			<!-- Chain Shotgun -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_ChainShotgun"]/weaponTags</xpath>
+				<value>
+					<li>ammo_industrial/8/1</li>
+				</value>
+			</li>
+			<!-- Heavy SMG -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_HeavySMG"]/weaponTags</xpath>
+				<value>
+					<li>ammo_industrial/25/1</li>
+				</value>
+			</li>
+			<!-- LMG -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_LMG"]/weaponTags</xpath>
+				<value>
+					<li>ammo_industrial/47/1</li>
+				</value>
+			</li>
+			<!-- Assault Rifle -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_AssaultRifle"]/weaponTags</xpath>
+				<value>
+					<li>ammo_industrial/30/1</li>
+				</value>
+			</li>
+			<!-- Sniper Rifle -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_SniperRifle"]/weaponTags</xpath>
+				<value>
+					<li>ammo_industrial/5/1</li>
+				</value>
+			</li>
+			<!-- Minigun -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_Minigun"]/weaponTags</xpath>
+				<value>
+					<li>ammo_industrial/500/1</li>
+				</value>
+			</li>
+
+			<!-- Neolithic -->
+			<!-- Short Bow -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Bow_Short"]/weaponTags</xpath>
+				<value>
+					<li>ammo_primitive/25/1</li>
+				</value>
+			</li>
+			<!-- Pila -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Pila"]/weaponTags</xpath>
+				<value>
+					<li>ammo_primitive/5/1</li>
+				</value>
+			</li>
+			<!-- Recurve Bow -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Bow_Recurve"]/weaponTags</xpath>
+				<value>
+					<li>ammo_primitive/15/1</li>
+				</value>
+			</li>
+			<!-- Great Bow -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Bow_Great"]/weaponTags</xpath>
+				<value>
+					<li>ammo_primitive/10/1</li>
+				</value>
+			</li>
+
+			<!--Spacer-->
+			<!-- Charge Rifle -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_ChargeRifle"]/weaponTags</xpath>
+				<value>
+					<li>ammo_spacer/25/1</li>
+				</value>
+			</li>
+			<!-- Charge Lance -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_ChargeLance"]/weaponTags</xpath>
+				<value>
+					<li>ammo_spacer/4/1</li>
+				</value>
+			</li>
+
+			<!-- Mechanoid -->
+			<!-- Numbers here are high because mechanoids can't carry ammo -->
+			<!-- Thump Cannon -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_ThumpCannon"]/weaponTags</xpath>
+				<value>
+					<li>ammo_spacer/16/1</li>
+				</value>
+			</li>
+			<!-- Heavy Charge Blaster -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_ChargeBlasterHeavy"]/weaponTags</xpath>
+				<value>
+					<li>ammo_spacer/256/1</li>
+				</value>
+			</li>
+			<!-- Inferno Cannon -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_InfernoCannon"]/weaponTags</xpath>
+				<value>
+					<li>ammo_spacer_fire/16/1</li>
+				</value>
+			</li>
+			<!-- Needlegun -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_Needle"]/weaponTags</xpath>
+				<value>
+					<li>ammo_spacer/64/1</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

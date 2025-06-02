@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName = "Turret_MiniTurret"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+        <value>
+            <thingDefs>
+                <li>yy_ammo_industrial</li>
+            </thingDefs>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName = "Turret_Autocannon"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+        <value>
+            <thingDefs>
+                <li>yy_ammo_industrial</li>
+            </thingDefs>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName = "Turret_Sniper"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+        <value>
+            <thingDefs>
+                <li>yy_ammo_industrial</li>
+            </thingDefs>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName = "Turret_RocketswarmLauncher"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+        <value>
+            <thingDefs>
+                <li>yy_ammo_industrial_fire</li>
+            </thingDefs>
+        </value>
+    </Operation>
+
+</Patch>
