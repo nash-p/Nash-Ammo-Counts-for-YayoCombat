@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- Adding xml for magazine sizes and ammo costs for balance-->
+			<!-- Toxbomb launcher -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_ToxbombLauncher"]/weaponTags</xpath>
+				<value>
+					<li>ammo_industrial_fire/6/1</li>
+				</value>
+			</li>
+			<!-- Flame bow -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Flamebow"]/weaponTags</xpath>
+				<value>
+					<li>ammo_primitive_fire/15/1</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_HellsphereCannon"]/weaponTags</xpath>
+				<value>
+					<li>ammo_none</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_BeamGraser"]/weaponTags</xpath>
+				<value>
+					<li>ammo_none</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_ToxicNeedle"]/weaponTags</xpath>
+				<value>
+					<li>ammo_primitive/64/1</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_NeedleLauncher"]/weaponTags</xpath>
+				<value>
+					<li>ammo_primitive/64/1</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_MiniShotgun"]/weaponTags</xpath>
+				<value>
+					<li>ammo_industrial/32/1</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_Spiner"]/weaponTags</xpath>
+				<value>
+					<li>ammo_primitive/16/1</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_MiniFlameblaster"]/weaponTags</xpath>
+				<value>
+					<li>ammo_none</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
