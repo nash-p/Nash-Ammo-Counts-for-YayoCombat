@@ -21,7 +21,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "Gun_MachinePistol"]/weaponTags</xpath>
 				<value>
-					<li>ammo_nash_9x19mm/20/1</li>
+					<li>ammo_industrial/20/1</li>
 				</value>
 			</li>
 			<!-- Incendiary Launcher -->
