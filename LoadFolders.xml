@@ -5,6 +5,11 @@
         <li IfModActive="Ludeon.RimWorld.Ideology">Compat/Ideology</li>
         <li IfModActive="Ludeon.RimWorld.Biotech">Compat/Biotech</li>
         <li IfModActive="Ludeon.RimWorld.Anomaly">Compat/Anomaly</li>
+
+        <!-- VE Corner -->
+        <li IfModActive="Ludeon.RimWorld.Anomaly">Compat/VWE</li>
+
+
         <!--
         <li IfModActive="aelanna.eccentrictech.foxysarmory2">Compat/ETFoxArmory</li>
         <li IfModActive="Harkon.GunNut.DesertTech">Compat/GNDesert</li>
@@ -25,5 +30,7 @@
         <li IfModActive="gunmar.tribalhandcannon">Compat/THC</li>
         <li IfModActive="ocarina.prisonerjumpsuits">Compat/PrisonJumpsuit</li>
         -->
+
+
     </v1.5>
 </loadFolders>

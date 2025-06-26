@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_Bow_Compound"]/weaponTags</xpath>
+		<value>
+			<li>ammo_primitive/10/1</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_Gun_HandCannon"]/weaponTags</xpath>
+		<value>
+			<li>ammo_primitive_fire/5/1</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_CombatHandgun"]/weaponTags</xpath>
+		<value>
+			<li>ammo_industrial/6/1</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_SawedOffShotgun"]/weaponTags</xpath>
+		<value>
+			<li>ammo_industrial/2/1</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_Gun_GrenadeLauncher"]/weaponTags</xpath>
+		<value>
+			<li>ammo_industrial_fire/6/1</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_Gun_Flamethrower"]</xpath>
+		<value>
+			<weaponTags>
+				<li>ammo_industrial_fire/10/1</li>
+			</weaponTags>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_Gun_FireExtinguisher"]/weaponTags</xpath>
+		<value>
+			<li>ammo_none</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_Gun_SemiAutomaticRifle"]</xpath>
+		<value>
+			<weaponTags>
+				<li>ammo_industrial/10/1</li>
+			</weaponTags>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_Gun_LeverActionRifle"]/weaponTags</xpath>
+		<value>
+			<li>ammo_industrial/10/1</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_Gun_LightSMG"]/weaponTags</xpath>
+		<value>
+			<li>ammo_industrial/40/1</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_Gun_SMG"]/weaponTags</xpath>
+		<value>
+			<li>ammo_industrial/30/1</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_Gun_HMG"]/weaponTags</xpath>
+		<value>
+			<li>ammo_industrial/50/1</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_Gun_ServiceRifle"]/weaponTags</xpath>
+		<value>
+			<li>ammo_industrial/30/1</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_Gun_BattleRifle"]/weaponTags</xpath>
+		<value>
+			<li>ammo_industrial/20/1</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_Gun_Carbine"]/weaponTags</xpath>
+		<value>
+			<li>ammo_industrial/30/1</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_Gun_MarksmanRifle"]/weaponTags</xpath>
+		<value>
+			<li>ammo_industrial/20/1</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_Gun_AntiMaterialRifle"]/weaponTags</xpath>
+		<value>
+			<li>ammo_industrial/5/1</li>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_Bow_Crossbow"]/weaponTags</xpath>
+		<value>
+			<li>ammo_primitive/10/1</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_Gun_Musket"]/weaponTags</xpath>
+		<value>
+			<li>ammo_primitive_fire/5/1</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_Gun_Flintlock"]/weaponTags</xpath>
+		<value>
+			<li>ammo_primitive_fire/5/1</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_Throwing_Knives"]/weaponTags</xpath>
+		<value>
+			<li>ammo_primitive/10/1</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VWE_Tool_Whip"]</xpath>
+		<value>
+			<weaponTags>
+				<li>ammo_none</li>
+			</weaponTags>
+		</value>
+	</Operation>
+
+</Patch>
